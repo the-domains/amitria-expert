@@ -1,14 +1,26 @@
-layout_spectrum: 0.6086782475467771
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 typography_spectrum: 0.5553467033896595
 color:
+  saturation: 1
   brandStrength: 0.01306787203066051
-  lightness: 0.6520612738095224
-  saturation: 0.534207335440442
-  rhythmicContrast: 0.7142748381011188
+  lightness: 0.9382979
   brandColors:
     - '#B8B42D'
     - '#697A21'
     - '#FFFCE8'
     - '#3E363F'
     - '#DD403A'
+  rhythmicContrast: 1
+layout_spectrum: 0.6086782475467771
 name: 'Amitria Expert '
